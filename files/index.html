@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay's Gaming Channel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            background-color: #e50914;
+            color: #fff;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 2.5em;
+            color: #e50914;
+        }
+
+        marquee {
+            background-color: #e50914;
+            color: #fff;
+            padding: 10px 0;
+            font-size: 1.2em;
+        }
+
+        section {
+            padding: 20px;
+        }
+
+        #featured-games {
+            text-align: center;
+        }
+
+        #featured-games h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #e50914;
+        }
+
+        .game {
+            display: inline-block;
+            width: 30%;
+            margin: 10px;
+            background-color: #1f1f1f;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .game img {
+            width: 100%;
+            border-bottom: 3px solid #e50914;
+        }
+
+        .game h3 {
+            font-size: 1.5em;
+            margin: 10px 0;
+            color: #e50914;
+        }
+
+        .game p {
+            padding: 0 10px 10px;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+            color: #aaa;
+        }
+
+        .section-title {
+            color: #e50914;
+            font-size: 2em;
+            text-align: center;
+            margin-top: 0;
+        }
+
+        #about, #contact {
+            background-color: #1f1f1f;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+
+        #contact form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #contact form input, #contact form textarea {
+            width: 100%;
+            max-width: 600px;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #333;
+        }
+
+        #contact form button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: #e50914;
+            color: #fff;
+            font-size: 1em;
+            cursor: pointer;
+        }
+
+        #contact form button:hover {
+            background-color: #d40813;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Vijay's Gaming Channel</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#games">Games</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <marquee behavior="scroll" direction="left">Latest Updates: New game releases every week! Stay tuned for more exciting content!</marquee>
+
+    <section id="home">
+        <h2 class="section-title">Home</h2>
+        <p>Welcome to the ultimate destination for gaming enthusiasts. Stay tuned for the latest updates and in-depth reviews of the hottest games.</p>
+    </section>
+
+    <section id="games">
+        <h2 class="section-title">Featured Games</h2>
+        <div id="featured-games">
+            <div class="game">
+                <img src="https://via.placeholder.com/300x150.png?text=Game+1" alt="Game 1">
+                <h3>Game Title 1</h3>
+                <p>A brief description of Game 1. It's an exciting adventure game with stunning graphics.</p>
+            </div>
+            <div class="game">
+                <img src="https://via.placeholder.com/300x150.png?text=Game+2" alt="Game 2">
+                <h3>Game Title 2</h3>
+                <p>Engage in epic battles with intense gameplay.</p>
+            </div>
+            <div class="game">
+                <img src="https://via.placeholder.com/300x150.png?text=Game+3" alt="Game 3">
+                <h3>Game Title 3</h3>
+                <p>Explore vast worlds and unlock new challenges.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2 class="section-title">About</h2>
+        <p>This channel is dedicated to providing the latest news, reviews, and gameplay footage of the most popular games. Join our community and stay ahead in the gaming world.</p>
+    </section>
+
+    <section id="contact">
+        <h2 class="section-title">Contact</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Vijay's Gaming Channel. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
